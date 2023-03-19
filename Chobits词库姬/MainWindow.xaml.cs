@@ -108,7 +108,7 @@ namespace Chobits词库姬
             MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
             MainFrame.Source = new Uri("设置.xaml", UriKind.Relative);
         }
+        
 
-       
     }
 }

@@ -9,6 +9,6 @@
       Title="插件">
 
     <Grid>
-        <TextBlock Text="插件" Background="#FF6F9CEF" FontSize="72" />
+        <TextBlock Text="插件" Background="#FF6F9CEF" FontSize="72" FontFamily="851tegakizatsu"/>
     </Grid>
 </Page>

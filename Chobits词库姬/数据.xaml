@@ -9,6 +9,6 @@
       Title="数据">
 
     <Grid>
-        <TextBlock Text="数据" Background="#FF6F9CEF" FontSize="72" />
+        <TextBlock Text="数据" Background="#FF6F9CEF" FontSize="72" FontFamily="851tegakizatsu"/>
     </Grid>
 </Page>

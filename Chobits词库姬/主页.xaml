@@ -8,8 +8,15 @@
       d:DesignHeight="450" d:DesignWidth="710"
       Title="主页">
 
-    <Grid Background="White" >
-        <TextBlock Text="主页" Background="#FF6F9CEF" FontSize="72" />
-        
+    <Grid  Background="#FF6F9CEF" HorizontalAlignment="Center" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0"  TextWrapping="Wrap" Text=" WebSocket IP" VerticalAlignment="Top" Height="15" Width="100"/>
+        <TextBox Name="api地址框" HorizontalAlignment="Left" Margin="10,25,0,0" Text="ws://127.0.0.1:5700" TextWrapping="Wrap"  VerticalAlignment="Top" Width="100" Background="White" Height="30" FontSize="10" TextChanged="api地址框_TextChanged"/>
+        <Button Name="api连接" BorderBrush="Black" Content="连接" BorderThickness="1" Margin="115,28,526,0" FontFamily="851tegakizatsu" FontSize="10" Click="api连接_Click" Cursor="Hand" VerticalAlignment="Top" Height="24" RenderTransformOrigin="0.514,0.066"/>
+
+
     </Grid>
 </Page>
