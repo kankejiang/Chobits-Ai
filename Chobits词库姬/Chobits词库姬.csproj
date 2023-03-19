@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="资源\851手写杂字体.ttf" />
     <None Remove="资源\logo.jpg" />
     <None Remove="资源\主页.png" />
     <None Remove="资源\华康少女字体.ttf" />
@@ -23,13 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="资源\851手写杂字体.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="资源\logo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="资源\主页.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="资源\华康少女字体.ttf" />
     <Resource Include="资源\插件.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

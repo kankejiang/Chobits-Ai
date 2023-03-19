@@ -6,9 +6,10 @@
       xmlns:local="clr-namespace:Chobits词库姬"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="消息">
+      Title="消息"
+      FontFamily="851tegakizatsu">
 
     <Grid Background="White" >
-        <TextBlock Text="消息" Background="#FF6F9CEF" FontSize="72" />
+        <TextBlock Text="消息" Background="#FF6F9CEF" FontSize="72" FontFamily="851tegakizatsu" />
     </Grid>
 </Page>
